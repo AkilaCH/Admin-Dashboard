@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Admin Dashboard</title>
+  <!-- Meterials Icon  -->
+  <link rel="stylesheet" href="../assets/vendors/iconfonts/mdi/css/materialdesignicons.css">
+
+  <!-- Element css -->
+  <link rel="stylesheet" href="../assets/css/shared/style.css">
+
+  <!-- Layout style -->
+  <link rel="stylesheet" href="../assets/css/dashboard/style.css">
+  
+</head>
+
+<body class="header-fixed">
+
+  <nav class="t-header">
+    <div class="t-header-brand-wrapper">
+      <a href="index.html">
+        <img class="logo" src="../assets/images/logo.png" alt=""><span class="logo-text">OctopusBI</span>
+        <img class="logo-mini" src="../assets/images/logo.png" alt="">
+      </a>
+    </div>
+    <div class="t-header-content-wrapper">
+      <div class="t-header-content">
+        <button class="t-header-toggler t-header-mobile-toggler d-block d-lg-none">
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <form action="#" class="t-header-search-box">
+          <div class="input-group">
+            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search" autocomplete="off">
+            <button class="btn btn-primary" type="submit"><i class="mdi mdi-windows"></i></button>
+          </div>
+        </form>
+        <ul class="nav ml-auto">
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="notificationDropdown" data-toggle="dropdown" aria-expanded="false">
+              <i class="mdi mdi-bell-outline mdi-1x"></i>
+            </a>
+            <div class="dropdown-menu navbar-dropdown dropdown-menu-right" aria-labelledby="notificationDropdown">
+              <div class="dropdown-header">
+                <h6 class="dropdown-title">Notifications</h6>
+              </div>
+              <div class="dropdown-body">
+                <div class="dropdown-list">
+                  <div class="icon-wrapper rounded-circle bg-inverse-primary text-primary">
+                    <i class="mdi mdi-alert"></i>
+                  </div>
+                  <div class="content-wrapper">
+                    <small class="name">New User singup</small>
+                  </div>
+                </div>
+                <div class="dropdown-list">
+                  <div class="icon-wrapper rounded-circle bg-inverse-primary text-primary">
+                    <i class="mdi mdi-alert"></i>
+                  </div>
+                  <div class="content-wrapper">
+                    <small class="name">2 user info add to DB</small>
+                  </div>
+                </div>
+                <div class="dropdown-list">
+                  <div class="icon-wrapper rounded-circle bg-inverse-primary text-primary">
+                    <i class="mdi mdi-alert"></i>
+                  </div>
+                  <div class="content-wrapper">
+                    <small class="name">System update avaliable</small>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-footer">
+                <a href="#">View All</a>
+              </div>
+            </div>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="messageDropdown" data-toggle="dropdown" aria-expanded="false">
+              <i class="mdi mdi-comment-alert-outline mdi-1x"></i> 
+            </a>
+            <div class="dropdown-menu navbar-dropdown dropdown-menu-right" aria-labelledby="messageDropdown">
+              <div class="dropdown-header">
+                <h6 class="dropdown-title">Messages</h6>
+              </div>
+              <div class="dropdown-body">
+                <div class="dropdown-list">
+                  <div class="image-wrapper">
+                    <img class="profile-img" src="../assets/images/profile/P_1.jpg" alt="profile image">
+                    <div class="status-indicator rounded-indicator bg-success"></div>
+                  </div>
+                  <div class="content-wrapper">
+                    <small class="name">Kelly Simpson</small>
+                    <small class="content-text">Logged into account</small>
+                  </div>
+                </div>
+                <div class="dropdown-list">
+                  <div class="image-wrapper">
+                    <img class="profile-img" src="../assets/images/profile/P_2.jpg" alt="profile image">
+                    <div class="status-indicator rounded-indicator bg-success"></div>
+                  </div>
+                  <div class="content-wrapper">
+                    <small class="name">Lana del Ray</small>
+                    <small class="content-text">Logged into account</small>
+                  </div>
+                </div>
+                <div class="dropdown-list">
+                  <div class="image-wrapper">
+                    <img class="profile-img" src="../assets/images/profile/P_4.jpg" alt="profile image">
+                    <div class="status-indicator rounded-indicator bg-warning"></div>
+                  </div>
+                  <div class="content-wrapper">
+                    <small class="name">Lewis Hamilton</small>
+                    <small class="content-text">Logged-out in account</small>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-footer">
+                <a href="#">View All</a>
+              </div>
+            </div>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-body">
+
+    <div class="sidebar">
+      <div class="user-profile">
+        <div class="display-avatar">
+          <img class="profile-img img-lg rounded-circle" src="../assets/images/profile/P_5.jpg"
+            alt="profile image">
+        </div>
+        <div class="info-wrapper">
+          <p class="user-name">John Doe</p>
+        </div>
+      </div>
+      <ul class="navigation-menu">
+        <li class="nav-category-divider">Menu</li>
+        <li>
+          <a href="index.html">
+            <span class="link-title">Dashboard</span>
+            <i class="mdi mdi-gauge link-icon"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#sample-pages" data-toggle="collapse" aria-expanded="false">
+            <span class="link-title" style="color: #fff;">User Loggings</span>
+            <i class="mdi mdi-account link-icon"></i>
+          </a>
+          <ul class="collapse navigation-submenu" id="sample-pages">
+            <li>
+              <a href="./pages/User-Loggings/login_1.html" target="_blank">Login</a>
+            </li>
+            <li>
+              <a href="./pages/User-Loggings/Registration.html" target="_blank">Registration</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#ui-elements" data-toggle="collapse" aria-expanded="false">
+            <span class="link-title" style="color: #fff;">User Statics</span>
+            <i class="mdi mdi-account-network link-icon"></i>
+          </a>
+          <ul class="collapse navigation-submenu" id="ui-elements">
+            <li>
+              <a href="./pages/User-Statics/tables.html"><i class="mdi mdi-table-large link-icon"></i>Tables</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="page-content-wrapper">
+      <div class="page-content-wrapper-inner">
+        <div class="content-viewport">
+          <div class="row">
+            <div class="col-12 py-5">
+              <h4>Dashboard</h4>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-lg-6 equel-grid">
+              <div class="grid">
+                <div class="grid-body">
+                  <h2 class="grid-title">User Category</h2>
+                  <div class="item-wrapper">
+                    <canvas id="chartjs-doughnut-chart" width="600" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 equel-grid">
+              <div class="grid">
+                <div class="grid-body">
+                  <h2 class="grid-title">User log statistics</h2>
+                  <div class="item-wrapper">
+                    <canvas id="chartjs-pie-chart" width="600" height="400"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12 equel-grid">
+              <div class="grid">
+                <div class="grid-body py-3">
+                  <p class="card-title ml-n1">User Premission Log</p>
+                </div>
+                <div class="table-responsive">
+                  <table class="table table-hover table-sm">
+                    <thead>
+                      <tr class="solid-header">
+                        <th colspan="2" class="pl-4">User</th>
+                        <th colspan="1" class="pl-4">Data</th>
+                        <th colspan="1" class="pl-4">Time</th>
+                        <th colspan="2" class="pl-4">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="pr-0 pl-4">
+                          <img class="profile-img img-sm" src="../assets/images/profile/P_1.jpg"
+                            alt="profile image">
+                        </td>
+                        <td class="pl-md-0">
+                          <small class="text-black font-weight-medium d-block">Barbara Curtis</small>
+                        </td>
+                        <td>
+                          <span class="text-gray">
+                            <span class="status-indicator rounded-indicator small bg-primary"></span>Account updated
+                          </span>
+                        </td>
+                        <td> Jan 13, 2021 09:41am </td>
+                        <td>
+                          <span class="text-gray">
+                            Account permission is accepted
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="pr-0 pl-4">
+                          <img class="profile-img img-sm" src="../assets/images/profile/P_5.jpg"
+                            alt="profile image">
+                        </td>
+                        <td class="pl-md-0">
+                          <small class="text-black font-weight-medium d-block">Charlie Hawkins</small>
+                        </td>
+                        <td>
+                          <span class="text-gray">
+                            <span class="status-indicator rounded-indicator small bg-success"></span>Email Verified
+                          </span>
+                        </td>
+                        <td> Mar 05, 2021 01:37am </td>
+                        <td>
+                          <span class="text-gray">
+                            Account permission is pending
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="pr-0 pl-4">
+                          <img class="profile-img img-sm" src="../assets/images/profile/P_6.jpg"
+                            alt="profile image">
+                        </td>
+                        <td class="pl-md-0">
+                          <small class="text-black font-weight-medium d-block">Mike Williams</small>
+                        </td>
+                        <td>
+                          <span class="text-gray">
+                            <span class="status-indicator rounded-indicator small bg-warning"></span>Account incompleted
+                          </span>
+                        </td>
+                        <td> Apr 13, 2021 10:30am </td>
+                        <td>
+                          <span class="text-gray">
+                            Account permission is denied
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="pr-0 pl-4">
+                          <img class="profile-img img-sm" src="../assets/images/profile/P_2.jpg"
+                            alt="profile image">
+                        </td>
+                        <td class="pl-md-0">
+                          <small class="text-black font-weight-medium d-block">Nina Biles</small>
+                        </td>
+                        <td>
+                          <span class="text-gray">
+                            <span class="status-indicator rounded-indicator small bg-success"></span>Email Verified
+                          </span>
+                        </td>
+                        <td> Feb 20, 2021 10:34am </td>
+                        <td>
+                          <span class="text-gray">
+                            Account permission is accepted
+                          </span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="row">
+          <div class="col-sm-6 text-center text-sm-right order-sm-1">
+            <ul class="text-gray">
+              <li><a href="#">products</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Request a demo</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 text-center text-sm-left mt-3 mt-sm-0">
+            <small class="text-gray mt-2">Built with HTML5, CSS3, JS and Chartjs</small>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+
+
+  <!-- plugins -->
+  <script src="../assets/vendors/js/core.js"></script>
+  <script src="../assets/js/charts/chartjs.js"></script>
+
+  <!-- Vendor Js For This Page Ends-->
+  <script src="../assets/vendors/apexcharts/apexcharts.min.js"></script>
+  <script src="../assets/vendors/chartjs/Chart.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="../assets/js/script.js"></script>
+  <script src="../assets/js/dashboard.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Table</title>
+    <!-- plugins -->
+    <link rel="stylesheet" href="../../../assets/vendors/iconfonts/mdi/css/materialdesignicons.css">
+    <link rel="stylesheet" href="../../../assets/vendors/css/vendor.addons.css">
+
+    <!-- Element css -->
+    <link rel="stylesheet" href="../../../assets/css/shared/style.css">
+    
+    <!-- Layout style -->
+    <link rel="stylesheet" href="../../../assets/css/dashboard/style.css">
+  
+  </head>
+  <body class="header-fixed">
+
+    <nav class="t-header">
+      <div class="t-header-brand-wrapper">
+        <a href="../../index.html">
+          <img class="logo" src="../../../assets/images/logo.png" alt=""><span class="logo-text">OctopusBI</span>
+          <img class="logo-mini" src="../../../assets/images/logo.png"alt="">
+        </a>
+      </div>
+      <div class="t-header-content-wrapper">
+        <div class="t-header-content">
+          <button class="t-header-toggler t-header-mobile-toggler d-block d-lg-none">
+            <i class="mdi mdi-menu"></i>
+          </button>
+          <form action="#" class="t-header-search-box">
+            <div class="input-group">
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search" autocomplete="off">
+              <button class="btn btn-primary" type="submit"><i class="mdi mdi-windows"></i></button>
+            </div>
+          </form>
+          <ul class="nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="notificationDropdown" data-toggle="dropdown" aria-expanded="false">
+                <i class="mdi mdi-bell-outline mdi-1x"></i>
+              </a>
+              <div class="dropdown-menu navbar-dropdown dropdown-menu-right" aria-labelledby="notificationDropdown">
+                <div class="dropdown-header">
+                  <h6 class="dropdown-title">Notifications</h6>
+                </div>
+                <div class="dropdown-body">
+                  <div class="dropdown-list">
+                    <div class="icon-wrapper rounded-circle bg-inverse-primary text-primary">
+                      <i class="mdi mdi-alert"></i>
+                    </div>
+                    <div class="content-wrapper">
+                      <small class="name">New User singup</small>
+                    </div>
+                  </div>
+                  <div class="dropdown-list">
+                    <div class="icon-wrapper rounded-circle bg-inverse-primary text-primary">
+                      <i class="mdi mdi-alert"></i>
+                    </div>
+                    <div class="content-wrapper">
+                      <small class="name">2 user info add to DB</small>
+                    </div>
+                  </div>
+                  <div class="dropdown-list">
+                    <div class="icon-wrapper rounded-circle bg-inverse-primary text-primary">
+                      <i class="mdi mdi-alert"></i>
+                    </div>
+                    <div class="content-wrapper">
+                      <small class="name">System update avaliable</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-footer">
+                  <a href="#">View All</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="messageDropdown" data-toggle="dropdown" aria-expanded="false">
+                <i class="mdi mdi-comment-alert-outline mdi-1x"></i>              
+              </a>
+              <div class="dropdown-menu navbar-dropdown dropdown-menu-right" aria-labelledby="messageDropdown">
+                <div class="dropdown-header">
+                  <h6 class="dropdown-title">Messages</h6>
+                </div>
+                <div class="dropdown-body">
+                  <div class="dropdown-list">
+                    <div class="image-wrapper">
+                      <img class="profile-img" src="../../../assets/images/profile/P_1.jpg" alt="profile image">
+                      <div class="status-indicator rounded-indicator bg-success"></div>
+                    </div>
+                    <div class="content-wrapper">
+                      <small class="name">Kelly Simpson</small>
+                      <small class="content-text">Logged into account</small>
+                    </div>
+                  </div>
+                  <div class="dropdown-list">
+                    <div class="image-wrapper">
+                      <img class="profile-img" src="../../../assets/images/profile/P_2.jpg" alt="profile image">
+                      <div class="status-indicator rounded-indicator bg-success"></div>
+                    </div>
+                    <div class="content-wrapper">
+                      <small class="name">Lana del Ray</small>
+                      <small class="content-text">Logged into account</small>
+                    </div>
+                  </div>
+                  <div class="dropdown-list">
+                    <div class="image-wrapper">
+                      <img class="profile-img" src="../../../assets/images/profile/P_4.jpg" alt="profile image">
+                      <div class="status-indicator rounded-indicator bg-warning"></div>
+                    </div>
+                    <div class="content-wrapper">
+                      <small class="name">Lewis Hamilton</small>
+                      <small class="content-text">Logged-out in account</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-footer">
+                  <a href="#">View All</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page-body">
+
+      <div class="sidebar">
+        <div class="user-profile">
+          <div class="display-avatar">
+            <img class="profile-img img-lg rounded-circle" src="../../../assets/images/profile/P_5.jpg" alt="profile image">
+          </div>
+          <div class="info-wrapper">
+            <p class="user-name">John Doe</p>
+          </div>
+        </div>
+        <ul class="navigation-menu">
+          <li class="nav-category-divider">Menu</li>
+          <li>
+            <a href="../../index.html">
+              <span class="link-title" style="color: #fff;">Dashboard</span>
+              <i class="mdi mdi-gauge link-icon"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#sample-pages" data-toggle="collapse" aria-expanded="false">
+              <span class="link-title"style="color: #fff;">User Loggings</span>
+              <i class="mdi mdi-account link-icon"></i>
+            </a>
+            <ul class="collapse navigation-submenu" id="sample-pages">
+              <li>
+                <a href="../User-Loggings/login_1.html" target="_blank">Login</a>
+              </li>
+              <li>
+                <a href="../User-Loggings/Registration.html" target="_blank">Registration</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#ui-elements" data-toggle="collapse" aria-expanded="false">
+              <span class="link-title" style="color: #fff;">User Statics</span>
+              <i class="mdi mdi-account-network link-icon"></i>
+            </a>
+            <ul class="collapse navigation-submenu" id="ui-elements">
+              <li>
+                <a href="./tables.html"><i class="mdi mdi-table-large link-icon"></i>Tables</a>
+                
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-content-wrapper">
+        <div class="page-content-wrapper-inner">
+          <div class="viewport-header">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb has-arrow">
+                <li class="breadcrumb-item">
+                  <a href="../../index.html">Dashboard</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Tables</li>
+              </ol>
+            </nav>
+          </div>
+          <div class="content-viewport">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="grid">
+                  <p class="grid-header">Logged Users</p>
+                  <div class="item-wrapper">
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Time</th>
+                            <th>Created date</th>
+                            <th>logging Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Mike</td>
+                            <td>08:05:10 am</td>
+                            <td>01 Jan 2021</td>
+                            <td>
+                              <label class="badge badge-success">Success</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>John</td>
+                            <td>10:30:40 am</td>
+                            <td>02 Feb 2021</td>
+                            <td>
+                              <label class="badge badge-success">Success</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lilly</td>
+                            <td>01:00:00 pm</td>
+                            <td>14 Mar 2021</td>
+                            <td>
+                              <label class="badge badge-success">Success</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Tom</td>
+                            <td>04:30:20 pm</td>
+                            <td>02 Apr 2021</td>
+                            <td>
+                              <label class="badge badge-success">Success</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Diane</td>
+                            <td>03:30:20 pm</td>
+                            <td>20 Jan 2021</td>
+                            <td>
+                              <label class="badge badge-success">Success</label>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="grid">
+                  <p class="grid-header">Logging Failed users</p>
+                  <div class="item-wrapper">
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Time</th>
+                            <th>Created date</th>
+                            <th>logging Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>James</td>
+                            <td>11:05:10 am</td>
+                            <td>01 Apr 2021</td>
+                            <td>
+                              <label class="badge badge-danger">Failed</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Miles</td>
+                            <td>08:10:15 am</td>
+                            <td>20 Mar 2021</td>
+                            <td>
+                              <label class="badge badge-danger">Failed</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Lee</td>
+                            <td>09:30:20 am</td>
+                            <td>30 Jan 2021</td>
+                            <td>
+                              <label class="badge badge-danger">Failed</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>Joana</td>
+                            <td>02:30:50 pm</td>
+                            <td>15 Feb 2021</td>
+                            <td>
+                              <label class="badge badge-danger">Failed</label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>David</td>
+                            <td>06:45:10 pm</td>
+                            <td>05 Dec 2020</td>
+                            <td>
+                              <label class="badge badge-danger">Failed</label>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+          <div class="row">
+            <div class="col-sm-6 text-center text-sm-right order-sm-1">
+              <ul class="text-gray">
+                <li><a href="#">products</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Request a demo</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 text-center text-sm-left mt-3 mt-sm-0">
+              <small class="text-gray mt-2">Built with HTML5, CSS3, JS and Chartjs</small>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+
+    </div>
+
+
+    <!-- Vendor Js For This Page Ends-->
+    <script src="../../../assets/vendors/js/core.js"></script>
+
+    <!-- Custom Js -->
+    <script src="../../../assets/js/template.js"></script>
+
+  </body>
+</html>
